@@ -29,9 +29,11 @@ public class Person {
         System.out.println("Name: " + name);
         System.out.println("Tuoi: " + age);
         System.out.println("Address: " + address);
+        System.out.println("Doi tuong thu " + count);
     }
 
     public static int getCount() {
+        ++count;
         return count;
     }
 }
